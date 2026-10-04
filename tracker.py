@@ -3,18 +3,19 @@
 # Description: Displays the landing page and main menu for an expense tracker.
 
 print("""========================================
-    	EXPENSE TRACKER
-    Your personal finance helper
+            EXPENSE TRACKER
+        Know where your money goes.
 ========================================
-
-Welcome to Expense Tracker! Manage your daily expenses easily.
-
-MAIN MENU:
-1. Add an expense (coming soon)
-2. View all expenses (coming soon)
-3. Show total spent (coming soon)
-4. Exit (coming soon)
-
+ 
+Welcome! This is your personal expense tracker.
+ 
+MAIN MENU
+  [1] Add an expense            (coming soon)
+  [2] View all expenses         (coming soon)
+  [3] Show total spent          (coming soon)
+  [4] Exit                      (coming soon)
+ 
+----------------------------------------
+Made by: Juan Dela Cruz  |  Installment 1
 ========================================
-Made by: Kian Calvin Candol  |  Installment 1
-========================================""")
+""")

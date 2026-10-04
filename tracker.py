@@ -1,5 +1,5 @@
 # Project: Expense Tracker - Installment 1
-# Author: Kian Calvin  Candol
+# Author: Kian Calvin Candol
 # Description: Displays the landing page and main menu for an expense tracker.
 
 print("""========================================
@@ -16,6 +16,6 @@ MAIN MENU
   [4] Exit                      (coming soon)
  
 ----------------------------------------
-Made by: Juan Dela Cruz  |  Installment 1
+Made by: Kian Calvin Candol  |  Installment 1
 ========================================
 """)

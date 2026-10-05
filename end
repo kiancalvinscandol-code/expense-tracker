@@ -1,0 +1,54 @@
+[1mdiff --git a/tracker.py b/tracker.py[m
+[1mindex 07e6779..9b4c5c6 100644[m
+[1m--- a/tracker.py[m
+[1m+++ b/tracker.py[m
+[36m@@ -1,4 +1,4 @@[m
+[31m-# Project: Expense Tracker - Installment 1[m
+[32m+[m[32m# Project: Expense Tracker - Installment 2[m
+ # Author: Kian Calvin Candol[m
+ # Description: Displays the landing page and main menu for an expense tracker.[m
+ [m
+[36m@@ -6,16 +6,37 @@[m [mprint("""========================================[m
+             EXPENSE TRACKER[m
+         Know where your money goes.[m
+ ========================================[m
+[31m- [m
+[32m+[m
+ Welcome! This is your personal expense tracker.[m
+[31m- [m
+[32m+[m
+ MAIN MENU[m
+   [1] Add an expense            (coming soon)[m
+   [2] View all expenses         (coming soon)[m
+   [3] Show total spent          (coming soon)[m
+   [4] Exit                      (coming soon)[m
+[31m- [m
+[32m+[m[32m""")[m
+[32m+[m
+[32m+[m[32mname = input("What's your name? ")[m
+[32m+[m[32mprint(f"\nWelcome, {name}! Let's log two expenses.\n")[m
+[32m+[m
+[32m+[m[32mitem1 = input("First expense? ")[m
+[32m+[m[32mamount1 = float(input(f"Enter the amount for {item1}: "))[m
+[32m+[m
+[32m+[m[32mitem2 = input("Second expense? ")[m
+[32m+[m[32mamount2 = float(input(f"Enter the amount for {item2}: "))[m
+[32m+[m
+[32m+[m[32mtotal = amount1 + amount2[m
+[32m+[m[32maverage = total / 2[m
+[32m+[m
+[32m+[m[32mprint("\n------------------------------------------")[m
+[32m+[m[32mprint("                 SUMMARY                  ")[m
+[32m+[m[32mprint("------------------------------------------")[m
+[32m+[m[32mprint(f"{item1:<25} ${amount1:>10.2f}")[m
+[32m+[m[32mprint(f"{item2:<25} ${amount2:>10.2f}")[m
+[32m+[m[32mprint(f"{'Total Spent:':<25} ${total:>10.2f}")[m
+[32m+[m[32mprint(f"{'Average:':<25} ${average:>10.2f}")[m
+[32m+[m[32mprint("""[m
+ ----------------------------------------[m
+[31m-Made by: Kian Calvin Candol  |  Installment 1[m
+[32m+[m[32mMade by: Kian Calvin Candol  |  Installment 2[m
+ ========================================[m
+[31m-""")[m
+[32m+[m[32m""")[m
+\ No newline at end of file[m
